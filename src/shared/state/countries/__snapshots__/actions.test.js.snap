@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators Saves countries to redux if getCountries is successful 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "countries": Array [
+        Object {
+          "code": "AD",
+          "continent": Object {
+            "name": "Europe",
+          },
+          "currency": "EUR",
+          "languages": Array [
+            Object {
+              "name": "Catalan",
+              "native": "Català",
+            },
+          ],
+          "name": "Andorra",
+          "phone": "376",
+        },
+        Object {
+          "code": "AE",
+          "continent": Object {
+            "name": "Asia",
+          },
+          "currency": "AED",
+          "languages": Array [
+            Object {
+              "name": "Arabic",
+              "native": "العربية",
+            },
+          ],
+          "name": "United Arab Emirates",
+          "phone": "971",
+        },
+        Object {
+          "code": "AF",
+          "continent": Object {
+            "name": "Asia",
+          },
+          "currency": "AFN",
+          "languages": Array [
+            Object {
+              "name": "Pashto",
+              "native": "پښتو",
+            },
+            Object {
+              "name": "Uzbek",
+              "native": "Ўзбек",
+            },
+            Object {
+              "name": "Turkmen",
+              "native": "Туркмен / تركمن",
+            },
+          ],
+          "name": "Afghanistan",
+          "phone": "93",
+        },
+      ],
+    },
+    "type": "SET_COUNTRIES",
+  },
+]
+`;
